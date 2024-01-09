@@ -1,0 +1,27 @@
+#ButtonDiv>button{
+    box-sizing: border-box;
+    box-shadow: 3px 2px 3px 2px #fb4444;
+}
+#imgDiv>img{
+    padding: 50px;
+    padding-bottom: 70px;
+}
+hr{
+   
+   
+}
+@media screen and (max-width:576px) {
+
+    #BannerLogo{
+        display: grid;
+        grid-template-columns: repeat(2fr,1fr);
+    }
+    #TradingSectionLogo{
+        display: grid;
+        grid-template-columns: repeat(1fr,1fr);
+    }
+
+    #imgDiv>img{
+       width: 300px;
+    }
+}
